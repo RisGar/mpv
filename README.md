@@ -1,4 +1,4 @@
-# Dotfiles by LightArrowsEXE
+# dotfiles by LightArrowsEXE forked by RisGar
 
 My configuration for mpv. Note that this is a setup used and written by a video encoder, so some stuff some users might prefer (like overlaid static noise or automatic debanding on every source) are either not included, commented out, or bound to a toggle. Feel free to modify this to your liking, including uncommenting or changing settings however you please.
 
@@ -29,6 +29,7 @@ TBA
 3) Check the .vpy scripts in the repo (in the `vs` directory) and follow the links to the listed dependencies.
 4) Download and move the required files to the relevant directories (Python modules go to the `site-packages` directory, everything else goes in the `plugins64` directory).
 5) Verify that the scripts are running as intended by cycling through the profiles and pressing the `~` key during playback. It should tell you if it failed, and if it did what the missing dependencies are.
+6) To get Discord-RPC to work, copy the dll for your os in the lib folder into mpv's main directory.
 
 
 ## Dependencies:
@@ -48,6 +49,7 @@ TBA
 * [repl](https://github.com/rossy/mpv-repl)
 * [status-line](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/status-line.lua)
 * [visualizer](https://github.com/mfcc64/mpv-scripts/blob/master/visualizer.lua)
+* [mpv-discordRPC](https://github.com/noaione/mpv-discordRPC/blob/master/Scripts/mpv-drpc.lua)
 
 
 * [FSRCNNX](https://github.com/igv/FSRCNN-TensorFlow/releases)
