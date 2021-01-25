@@ -444,7 +444,7 @@ function mpvdrpc()
 			state = state,
 			details = filename,
 			largeImageKey = "mpvlogo",
-			largeImageText = "mpv Media Player",
+			largeImageText = "mpv",
 			smallImageKey = stateimage,
 			smallImageText = statetext,
 		}
@@ -456,7 +456,7 @@ function mpvdrpc()
 			state = state,
 			details = filename,
 			largeImageKey = "mpvlogo",
-			largeImageText = "mpv Media Player",
+			largeImageText = "mpv",
 			smallImageKey = stateimage,
 			smallImageText = statetext,
 		}
@@ -466,7 +466,7 @@ function mpvdrpc()
 			smallImageKey = stateimage,
 			smallImageText = statetext,
 			largeImageKey = "mpvlogo",
-			largeImageText = "mpv Media Player",
+			largeImageText = "mpv",
 		}
 	end
 	
