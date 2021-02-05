@@ -59,4 +59,5 @@ vid = depth(video_in, 16)
 detail_mask = lvf.mask.detail_mask(vid, brz_a=0.045, brz_b=0.06)
 deband = debander(vid, luma_grain=4.0, **deband_args)
 deband = core.std.MaskedMerge(deband, vid, detail_mask)
+
 depth(deband, get_depth(video_in)).set_output()
