@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
+
 import havsfunc as haf
 import vapoursynth as vs
 
 core = vs.core
-
 
 def warpsharp(clip: vs.VideoNode,
               thresh: int = 128,

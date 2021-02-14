@@ -34,19 +34,20 @@ TBA
 - [Youtube-dl](https://github.com/ytdl-org/youtube-dl/releases)
 - [Gandhi Sans](https://www.fontsquirrel.com/fonts/gandhi-sans) and [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
 
-## Included shaders/scripts:
+## Included scripts / shaders:
 
 - [acompressor](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua)
 - [autocrop](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autocrop.lua)
 - [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)
 - [auto-profiles](https://github.com/wiiaboo/mpv-scripts/blob/master/auto-profiles.lua)
-- [boss-key](https://github.com/detuur/mpv-scripts) - currently deactivated
+- [boss-key](https://github.com/detuur/mpv-scripts/blob/master/boss-key.lua) - currently deactivated
 - [playlistmanager](https://github.com/jonniek/mpv-playlistmanager)
 - [reload](https://github.com/4e6/mpv-reload)
 - [repl](https://github.com/rossy/mpv-repl)
 - [status-line](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/status-line.lua)
 - [visualizer](https://github.com/mfcc64/mpv-scripts/blob/master/visualizer.lua)
 - [mpv-discordRPC](https://github.com/noaione/mpv-discordRPC/blob/master/Scripts/mpv-drpc.lua) - currently deactivated
+- [encode](https://github.com/occivink/mpv-scripts/blob/master/scripts/encode.lua)
 
 - [FSRCNNX](https://github.com/igv/FSRCNN-TensorFlow/releases)
 - [KrigBilateral](https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637)

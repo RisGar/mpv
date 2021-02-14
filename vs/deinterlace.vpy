@@ -3,7 +3,7 @@
 from functools import partial
 
 import vapoursynth as vs
-from vsutil import depth
+from vsutil import depth, get_depth
 
 core = vs.core
 
@@ -41,7 +41,7 @@ def deinterlace(clip: vs.VideoNode, TFF: bool) -> vs.VideoNode:
     nn3 = core.nnedi3cl.NNEDI3CL(down, True)
 
     deint = core.std.FrameEval(vfm, partial(deint, clip=vfm, nn3=nn3), prop_src=vfm)
-    return depth(deint, clip.format.bits_per_sample)
+    return depth(deint, get_depth(clip))
 
 
 deinterlace(video_in, TFF=True).set_output()

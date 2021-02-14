@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
+
 import vapoursynth as vs
-from vsutil import depth
+from vsutil import depth, get_depth
 
 core = vs.core
 
@@ -20,7 +22,7 @@ def IVTC(clip: vs.VideoNode, TFF: bool) -> vs.VideoNode:
     """
     down = depth(clip, 8)
     vfm = core.vivtc.VFM(down, TFF)
-    return depth(vfm, clip.format.bits_per_sample)
+    return depth(vfm, get_depth(clip))
 
 
 IVTC(video_in, TFF=True).set_output()
